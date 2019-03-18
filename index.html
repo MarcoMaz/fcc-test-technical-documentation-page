@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Test: Technical Documentation Page</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<nav id="navbar">
+  <header>Front End Topics</header>
+  <ul>
+    <li><a href="#Html_Structuring_the_Web" class="nav-link">HTML Structuring the Web</a></li>
+    <li><a href="#Css_Styling_the_Web" class="nav-link">CSS Styling the Web</a></li>
+    <li><a href="#Javascript_Dynamic_Client_Side_Programming" class="nav-link">JAVASCRIPT Dynamic Client Side Programming</a></li>
+    <li><a href="#Crossbrowser_Testing" class="nav-link">CROSSBROWSER TESTING</a></li>
+    <li><a href="#Django_Web_Framework" class="nav-link">DJANGO Web Framework</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section id="Html_Structuring_the_Web" class="main-section">
+    <header>Html Structuring the Web</header>
+    <p>To build websites, you should know about HTML — the fundamental technology used to define the structure of a webpage.</p>
+    <p>HTML is used to specify whether your web content should be recognized as a paragraph, list, heading, link, image, multimedia player, form, or one of many other available elements or even a new element that you define.</p>
+  </section>
+  <section id="Css_Styling_the_Web" class="main-section">
+    <header>Css Styling the Web</header>
+    <p>Cascading Stylesheets — or CSS — is the first technology you should start learning after HTML.</p>
+    <p>While HTML is used to define the structure and semantics of your content, CSS is used to style it and lay it out. So for example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.</p>
+  </section>
+  <section id="Javascript_Dynamic_Client_Side_Programming" class="main-section">
+    <header>Javascript Dynamic Client Side Programming</header>
+    <p>JavaScript is a programming language that allows you to implement complex things on web pages.</p>
+    <p>Every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, or interactive maps, or animated 2D/3D graphics, or scrolling video jukeboxes, and so on — you can bet that JavaScript is probably involved.</p>
+    <p>
+      <b>Example #1: </b><br />
+      <code>
+        var myText = 'I am a string';<br />
+        var newString = myText.replace('string', 'sausage');<br />
+        console.log(newString);
+      </code>
+    </p>
+     <p>
+      <b>Example #2: </b>
+       <code>
+        var btn = document.querySelector('button');<br />
+        function random(number) {<br />
+        return Math.floor(Math.random()*(number+1));<br />
+        }
+       </code>
+    </p>
+     <p>
+      <b>Example #3: </b>
+       <code>
+         ctx.arc(random(WIDTH), random(HEIGHT), random(50), 0, 2 * Math.PI);
+       </code>
+    </p>
+     <p>
+      <b>Example #4: </b>
+       <code>
+         var btn = document.querySelector('button');<br />
+         btn.onclick = function() {<br />
+         var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';<br />
+         document.body.style.backgroundColor = rndCol;<br />
+         }
+       </code>
+    </p>
+     <p>
+      <b>Example #5: </b>
+       <code>
+         function bgChange() {<br />
+         var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';<br />
+         document.body.style.backgroundColor = rndCol;<br />
+         }
+       </code>
+    </p>
+  </section>
+  <section id="Crossbrowser_Testing" class="main-section">
+    <header>Crossbrowser Testing</header>
+    <p>This module focuses on testing web projects across different browsers.</p>
+    <p>We look at identifying your target audience (e.g. what users, browsers, and devices do you most need to worry about?), how to go about doing testing, the main issues that you'll face with different types of code and how to mitigate them, what tools are most useful in helping you test and fix problems, and how to use automation to speed up testing.</p>
+  </section>
+  <section id="Django_Web_Framework" class="main-section">
+    <header>Django Web Framework</header>
+    <p>Django is an extremely popular and fully featured server-side web framework, written in Python.</p>
+    <p>The module shows you why Django is one of the most popular web server frameworks, how to set up a development environment, and how to start using it to create your own web applications.</p>
+    <p>Experiments you can try:</p>
+    <ul>
+      <li>The local library website</li>
+      <li>Creating a skeleton website</li>
+      <li>Using models</li>
+      <li>Django admin site</li>
+      <li>Creating our home page</li>
+    </ul>
+  </section>
+</main>
+  
+  
+
+</body>
+
+</html>
